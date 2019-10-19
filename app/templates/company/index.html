@@ -1,0 +1,9 @@
+{% block content %}
+    <h1>All Companies</h1>
+    <hr>
+    {% for company in companies %}
+    <p>
+        <a href="/companies/{{company.id}}">  {{ company.company_name }} </a>  is <b>{{ company.company_vision }}</b>
+    </p>
+    {% endfor %}
+{% endblock %} 

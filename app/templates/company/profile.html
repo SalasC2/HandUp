@@ -1,0 +1,10 @@
+
+{% block content %}
+    <h1>Company: {{ company.company_name }}</h1>
+    <hr>
+    {% for need in needs %}
+    <p>
+    {{ need.company.company_name }} needs <b>{{ need.supplies_needed }}</b>
+    </p>
+    {% endfor %}
+{% endblock %}
