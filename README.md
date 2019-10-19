@@ -22,6 +22,7 @@ Handup is an application that makes it easier for nonprofits to get the help tha
 
 ### Run migrations
 ``` flask db migrate -m "Company Table" ```
+
 ``` flask db migrate -m "Need Table" ```
 
 # Schema Design 
